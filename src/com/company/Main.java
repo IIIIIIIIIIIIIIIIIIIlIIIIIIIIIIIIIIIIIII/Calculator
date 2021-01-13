@@ -15,20 +15,20 @@ public class Main {
         int operation = scanner.nextInt();
 
         System.out.println("Введите первое число:");
-        int a = scanner.nextInt();
+        int firstNumber = scanner.nextInt();
 
         System.out.println("Введите второе число:");
-        int b = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
 
         int result;
         if (operation == 1)
-            result = a + b;
+            result = firstNumber + secondNumber;
         else if (operation == 2)
-            result = a - b;
+            result = firstNumber - secondNumber;
         else if (operation == 3)
-            result = a * b;
+            result = firstNumber * secondNumber;
         else
-            result = a / b;
+            result = firstNumber / secondNumber;
 
         scanner.close();
 
